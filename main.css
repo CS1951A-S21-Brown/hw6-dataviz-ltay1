@@ -1,6 +1,8 @@
 .header {
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     margin-bottom: 20px;
+    fill: none;
+    stroke:pink;
 }
 
 .header > h3, h5 {
@@ -10,3 +12,36 @@
 }
 
 /* Include any custom CSS styling here! */
+
+.centre {
+    text-align: right;
+}
+
+.row {
+    text-align: center;
+    max-width: 1440px;
+    max-height: 3000px;
+    margin: 0 auto;
+}
+
+.controls2 {
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.controls2 {
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.col-lg-6 {
+    padding: 0;
+}
+
+#graph2 {
+    position: dynamic;
+    bottom: 200px;
+    right: 0px;
+}
